@@ -1,7 +1,5 @@
 package com.unicesumar.paymentMethods;
 
-import com.unicesumar.model.PaymentType;
-
 // Contrato a ser implementado em todos os metodos de pagamento
 public interface PaymentMethod {
     PaymentType getType();  // Retornar o tipo de pagamento

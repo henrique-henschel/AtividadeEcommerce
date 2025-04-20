@@ -3,6 +3,7 @@ package com.unicesumar.repository;
 import com.unicesumar.model.*;
 import com.unicesumar.paymentMethods.PaymentMethodFactory;
 import com.unicesumar.paymentMethods.PaymentMethod;
+import com.unicesumar.paymentMethods.PaymentType;
 
 import java.sql.*;
 import java.time.LocalDateTime;

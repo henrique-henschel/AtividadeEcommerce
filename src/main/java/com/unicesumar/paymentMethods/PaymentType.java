@@ -1,4 +1,4 @@
-package com.unicesumar.model;
+package com.unicesumar.paymentMethods;
 
 // Enum para os tipos de pagamento aceitos
 public enum PaymentType {

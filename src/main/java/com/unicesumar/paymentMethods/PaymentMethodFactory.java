@@ -1,7 +1,5 @@
 package com.unicesumar.paymentMethods;
 
-import com.unicesumar.model.PaymentType;
-
 public class PaymentMethodFactory {
     public static PaymentMethod create(PaymentType type) {
         switch (type) {

@@ -1,6 +1,5 @@
 package com.unicesumar.paymentMethods;
 
-import com.unicesumar.model.PaymentType;
 import com.unicesumar.view.View;
 
 // Implementacao de "PaymentMethod" para Pix

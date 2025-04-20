@@ -1,6 +1,7 @@
 package com.unicesumar.controller;
 
-import com.unicesumar.model.PaymentType;
+import com.unicesumar.paymentMethods.PaymentMethodFactory;
+import com.unicesumar.paymentMethods.PaymentType;
 import com.unicesumar.model.Product;
 import com.unicesumar.model.Sale;
 import com.unicesumar.model.User;
@@ -114,7 +115,7 @@ public class Controller {
         }
 
         // Cria a estrategia de pagamento via Factory
-        PaymentMethod paymentMethod = com.unicesumar.paymentMethods.PaymentMethodFactory.create(paymentType);
+        PaymentMethod paymentMethod = PaymentMethodFactory.create(paymentType);
 
         // Simulacao do processamento do pagamento
         view.showMessage("Aguarde, efetuando pagamento...");
